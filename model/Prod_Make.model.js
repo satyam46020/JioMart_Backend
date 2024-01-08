@@ -6,7 +6,7 @@ const prod_Make=mongoose.Schema({
     "title": String,
     "Rs":Number,
     "Mrp": Number,
-    "save": Number
+    "saving": Number
 })
 
 

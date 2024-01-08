@@ -47,7 +47,7 @@ electronics_Router.put("/indivisualPageData", async (req, res) => {
   try {
     const payload = req.body; 
     const individualPageData = new ElectronicsModel(payload);
-    await individualPageData.save();
+    await individualPageData.saving();
 
     res.status(200).send({ msg: "Data received successfully" });
   } catch (error) {
