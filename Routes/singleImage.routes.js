@@ -1,6 +1,6 @@
 const express=require("express")
 
-const SingleimageModel=require("../model/SingleImage.model")
+const SingleimageModel=require("../model/Singleimage.model")
 
 const singleimage_Router=express.Router();
 
